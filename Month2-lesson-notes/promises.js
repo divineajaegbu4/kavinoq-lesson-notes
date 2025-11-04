@@ -130,7 +130,7 @@ async function main() {
 main();
 
 
-console.log("================Combining Multiple Promises")
+console.log("================Combining Multiple Promises====")
 
 const runAllSettled = async () => {
     const [success, failure, mixed] = await Promise.allSettled([
